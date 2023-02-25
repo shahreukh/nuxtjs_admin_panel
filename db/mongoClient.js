@@ -1,5 +1,5 @@
 const MongoClient = require('mongodb').MongoClient;
-const URL = 'mongodb://admin**%4D%4F@10.8.8.16:27019/admin?authSource=admin123';
+const URL = 'mongodb://admin<password>@10.8.8.16:27019/admin?authSource=admin123';
 
 MongoClient.connect(URL, (err, client) => {
   if (err) {
